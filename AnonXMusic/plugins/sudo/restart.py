@@ -9,7 +9,7 @@ from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
 
-import config
+import config import OWNER_ID
 from AnonXMusic import app
 from AnonXMusic.misc import HAPP, SUDOERS, XCB
 from AnonXMusic.utils.database import (
