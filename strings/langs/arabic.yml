@@ -174,8 +174,8 @@ queue_6 : "<b>🕚 duration :</b> unknown duration stream\n\nclick on button bel
 queue_7 : "\nclick on button below to get whole ǫueued list."
 queue_8 : "<b>{0} player</b>\n\n🎄 <b>streaming :</b> {1}\n\n🔗 <b>stream type :</b> {2}\n🥀 <b>reǫuested by :</b> {3}\n{4}"
 
-stream_1 : "➲ <b>Started Streaming |</b>\n\n<b>‣ Title :</b> <a href={0}>{1}</a>\n<b>‣ Duration :</b> {2} minutes\n<b>‣ Reǫuested by :</b> {3}"
-stream_2 : "➲ <b>Started Streaming |</b>\n\n<b>‣ Stream type :</b> live stream [url]\n<b>‣ Reǫuested by :</b> {0}"
+stream_1 : "✯ <b>Started Streaming ✯</b>\n\n<b>↬ Title :</b> <a href={0}>{1}</a>\n<b>↬ Duration :</b> {2} minutes\n<b>↬ Reǫuested by :</b> {3}"
+stream_2 : "✯ <b>Started Streaming ✯</b>\n\n<b>↬ Stream type :</b> live stream [url]\n<b>↬ Reǫuested by :</b> {0}"
 
 
 CLOSE_BUTTON  : "close"
