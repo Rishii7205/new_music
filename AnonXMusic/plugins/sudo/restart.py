@@ -8,7 +8,7 @@ import urllib3
 from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
-from congig import OWNER_ID
+from config import OWNER_ID
 import config 
 from AnonXMusic import app
 from AnonXMusic.misc import HAPP, SUDOERS, XCB
