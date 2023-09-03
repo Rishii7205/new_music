@@ -9,7 +9,7 @@ from AnonXMusic.utils.database import get_client, is_active_chat, is_autoend
 
 async def auto_leave():
     if config.AUTO_LEAVING_ASSISTANT:
-        while not await asyncio.sleep(10000):
+        while not await asyncio.sleep(900):
             from AnonXMusic.core.userbot import assistants
 
             for num in assistants:
@@ -24,8 +24,8 @@ async def auto_leave():
                         ]:
                             if (
                                 i.chat.id != config.LOGGER_ID
-                                and i.chat.id != -1001686672798
-                                and i.chat.id != -1001549206010
+                                and i.chat.id != -1001759015516
+                                and i.chat.id != -1001960459350
                             ):
                                 if left == 20:
                                     continue
