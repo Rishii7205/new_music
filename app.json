@@ -57,6 +57,12 @@
         "value": "",
         "required": true
       }
+     },
+      "LOG_ID": {
+        "description": "Your Log Where Bot Were Add And Leave",
+        "value": "",
+        "required": true
+      }
     },
     "buildpacks": [
           {
